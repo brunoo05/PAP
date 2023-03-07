@@ -1,0 +1,457 @@
+
+*{
+    margin: 0;
+    pad: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(../Imagens/loja.jpg);
+    background-size:cover;
+    background-position: center;
+} 
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    color: #fff;
+    
+}
+
+.navbar ul li a {
+    text-decoration:none ;
+    color: #fff;
+    text-transform: uppercase;
+    
+    
+}
+
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width: 0;
+    background:#ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+
+.carrocompras{
+    width: 25px;
+    height: 25px;
+}
+
+.logouser{
+    width: 25px;
+    height: 24px;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 100%;
+  
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+    
+}
+
+.content h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    margin-top:40px;
+}
+
+.content h3 {
+    font-size: 40px;
+    margin-top:0vh;
+    margin-bottom: 20px;
+}
+
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    
+}
+
+.serviços {
+    flex-direction: row;
+    flex-wrap: column;
+    align-items: center;
+    display:grid;
+    
+}
+
+.servicos {
+    margin-top: 2%;
+}
+.serviços div {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.servicosbg {
+    
+    border-top: 2px solid #ffffff;
+    background-image:linear-gradient(rgb(34, 34, 34),rgba(34, 34, 34)),url(../Imagens/bgbanner.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.imagens {
+    padding-top: 20px;
+    width: 5%;
+    height: 5%;
+    
+}
+
+.titulo {
+    text-align:center;
+    color: #fff;
+}
+.paragrafo {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.servicos {
+    text-align: center;
+    color: #fff;
+}
+
+footer{
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 20px;
+    height: 200px;
+}
+.fotorodape{
+    width: 150px;
+    height: 35px;
+}
+.botaoredessociais{
+    padding-top: 9px;
+    margin-left: 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+
+.redessociais{
+    width: 200px;
+    height: 50px;
+}
+.fotosredes{
+    width: 18px;
+    height: 18px;
+}
+
+.banneraboutus {
+    width: 100%;
+    height: 12vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(../Imagens/bgbanner.webp);
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.bgaboutus {
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)), url(../Imagens/wallpaper_aboutus.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.esaglogo {
+    width: 130px;
+    height: 60px;
+}
+
+.pochlogo {
+    width: 500px;
+    height: 60px;
+}
+
+.bgcontacts {
+    width: 100%;
+    height: 85vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)), url(../Imagens/wallpaper_contacts.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.container {
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    left: 50%;
+    right: 50%;
+    padding-top:50px ;
+}
+
+.coluna {
+    width: 300px;
+    height: 300px;
+    background-color: #353535;
+    float: left;
+    border: 1px solid #fff;
+    padding: 40px;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.coluna p {
+    text-align: center;
+}
+
+.logoservicos {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+.bannerprodutos {
+   
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(../Imagens/wallpaper_produtos.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.bgcolor {
+    background-image:linear-gradient(rgb(34, 34, 34),rgba(34, 34, 34)),url(../Imagens/bgbanner.webp);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.product-list {
+    padding-top: 9vh;
+    left: 50%;
+    right: 50%;
+}
+
+.product-list .card {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10%;
+    box-shadow: 0px 10px 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card img {
+    max-width: 50%;
+}
+
+.card .text {
+    text-align: left;
+    margin-left: 2.5em;
+    margin-top: 0.5em;
+    font-size: 30px ;
+    font-weight: bold;
+}
+
+.buy-button {
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(37, 37, 37);
+    background: transparent;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.produtocontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.productlist {
+    left: 50%;
+    right: 50%;
+}
+
+.productlist .card {
+    margin-top: 10%;
+    margin-left: 11%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10%;
+    box-shadow: 0px 10px 5px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 75%;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.col-1, .col-2 {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-1{
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.col-1 h1 {
+    font-size: 74px;
+    margin-bottom: 5px;
+    line-height: 100px;
+    
+}
+
+.col-1 h2{
+    font-size: 36px;
+    margin-top: 60px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.comprar {
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: linear-gradient(rgba(35,35,35),rgba(35,35,35));
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagemdoproduto {
+    margin-top: 10% ;
+    width: 80%;
+    text-align: center;
+}
+
+.imagemdoproduto img {
+    width: 80%;
+}
+
+.descricao {
+    width: 100%;
+    font-size: 100%;
+}
+
+.descricao h1{
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.descricao h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+}
+
+#mapid { 
+    margin-bottom: 61px;
+    margin-top: 62px;
+    height: 500px; 
+    width: 500px;
+    border-radius: 10px;
+    border:5px solid #353535;
+}
+
+.utilizador{
+    color: #fff;
+}

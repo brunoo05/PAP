@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(29, 29, 29);
+  font-family: sans-serif;
+  overflow: hidden;
+  color: #fff;
+
+  }
+
+.inserirproduto{
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
